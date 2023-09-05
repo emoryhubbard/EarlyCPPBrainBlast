@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+for (int i = 0; i < length); i++) {
+	char item = line[i]
+}
+for (char item : myArray) {
+	
+}
+
+
+
+line = "(a == 3 or (b == 5 and c == 6))"
+stack = "((("
+item = "("
+len(stack) = 0
+true
+false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

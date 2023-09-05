@@ -1,0 +1,8 @@
+@media (min-width: 483px) {
+    main {
+        display: none;
+    }
+    header > section:first-of-type {
+        justify-content: flex-start;
+    }
+}

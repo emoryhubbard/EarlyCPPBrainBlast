@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+:root {
+    --lgray: #bababa;
+    --mgray: #8d8d8d;
+    --dgray: #3a3a3a;
+    --lblue: #a6cbeb;
+    --mblue: #4c96d7;
+}
+* {
+    font-family: "Share Tech Mono", monospace;
+}
+li {
+    list-style-type: none;
+}
+main {
+    display: none;
+}
+header > section:first-of-type {
+    display: flex;
+    justify-content: space-around;
+}
+.has-my-account {
+    text-align: center;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin: 0;
+    margin-top: .8rem;
+    background-color: var(--dgray);
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+    font-family: inherit;
+}
+.top-nav li {
+    color: var(--lgray);
+}
+.top-nav li a {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    color: white;
+}
+.top-nav li a:hover {
+    background-color: var(--mblue);
+    color: var(--dgray);
+}
+h2 {
+    font-size: 1.2rem;
+}
+main {
+    margin-left: .5rem;
+}
+.has-delorean {
+    position: relative;
+}
+.delorean {
+    width: 100%;
+}
+.cover-delorean {
+    position: absolute;
+    top: 0;
+}
+.cover-delorean > p:first-child {
+    color: var(--mblue);
+    font-weight: bold;
+}
+.cover-delorean > p {
+    margin: 0;
+    color: var(--mblue);
+    font-size: .9rem;
+}
+.own-today {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 50%;
+}
+.reviews {
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+.reviews li {
+    list-style-type: disc;
+    padding-bottom: .5rem;
+}
+.has-upgrade {
+    position: relative;
+}
+.upgrade {
+    background-color: var(--mblue);
+    height: 6rem;
+}
+.cover-upgrade {
+    width: 40%;
+    justify-self: center;
+    align-self: center;
+}
+.has-cover-upgrade {
+    position: absolute;
+    top: 0;
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+.ucard > a {
+    all: revert;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.has-ucard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: .5rem;
+    row-gap: 2rem;
+    padding-right: .5rem;
+    padding-bottom: 2rem;
+}
+footer {
+    border-top: 5px solid var(--dgray);
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+footer p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: .9rem;
+}
+
+
+
+
+
+
+
+
